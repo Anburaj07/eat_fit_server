@@ -1,275 +1,256 @@
 {
-    "foods": [
-      {
-        "id": 1,
-        "image": "https://curefoods-images.eatfit.in/tr:w-600,ar-0.8,c_fit//image/singles/eat/meals/EAT6221/primary/4_1.jpg",
-        "name": "Masala Egg curry, Yellow Dal Tadka, Paratha Thali",
-        "description": "Want a meal that's nutritious yet light on your stomach? This thali of egg curry, dal tadka, and soft whole wheat parathas, served with cucumber carrot salad, sirka onions that's packed with deliciousness.",
-        "cal": 689,
-        "price": 175,
-        "type": "vegan"
-      },
-      {
-        "id": 2,
-        "image": "https://curefoods-images.eatfit.in/tr:w-600,ar-0.8,c_fit//image/singles/eat/meals/EAT6217/primary/4_1.jpg",
-        "name": "Yellow Dal Tadka, Aloo Gobhi, Paratha Thali",
-        "description": "Relish the simple yet beautiful flavors of our homestyle yellow dal tadka and aloo gobhi adraki in this thali. To savor these mains, there’s our soft and fresh whole wheat parathas.",
-        "cal": 541,
-        "price": 175,
-        "type": "High fiber"
-      },
-      {
-        "id": 3,
-        "image": "https://curefoods-images.eatfit.in/tr:w-295,ar-1.33/image/singles/eat/meals/ALH04/primary/3_1.jpg",
-        "name": "Veg Biryani with Raita",
-        "description": "Aromatic basmati rice cooked with mixed vegetables, herbs, and spices, served with a side of cooling raita.",
-        "cal": 620,
-        "price": 200,
-        "type": "Vegetarian"
-      },
-      {
-        "id": 4,
-        "image": "https://curefoods-images.eatfit.in/tr:w-295,ar-1.33/image/singles/eat/meals/EAT6682/primary/2_1.jpg",
-        "name": "Chicken Tikka Masala with Naan",
-        "description": "Tender chicken pieces marinated and cooked in a rich, creamy tomato-based sauce, served with soft and fluffy naan bread.",
-        "cal": 800,
-        "price": 250,
-        "type": "Non-vegetarian"
-      },
-      {
-        "id": 5,
-        "image": "https://curefoods-images.eatfit.in/tr:w-295,ar-1.33/image/singles/eat/meals/EAT6120/primary/4_1.jpg",
-        "name": "Spinach and Feta Stuffed Chicken Breast",
-        "description": "Juicy chicken breast stuffed with spinach and feta, roasted to perfection. Served with a side of roasted vegetables.",
-        "cal": 450,
-        "price": 300,
-        "type": "High protein"
-      },
-      {
-        "id": 6,
-        "image": "https://curefoods-images.eatfit.in/tr:w-295,ar-1.33/image/singles/eat/meals/GIK80/primary/1_1.jpg",
-        "name": "Mango Coconut Rice Bowl",
-        "description": "Fluffy coconut rice topped with fresh mango chunks, avocado slices, and a drizzle of tangy mango dressing.",
-        "cal": 400,
-        "price": 180,
-        "type": "Vegan"
-      },
-      {
-        "id": 7,
-        "image": "https://curefoods-images.eatfit.in/tr:w-295,ar-1.33/image/singles/eat/meals/CHT36/primary/2_1.jpg",
-        "name": "Shrimp and Broccoli Stir-Fry",
-        "description": "Tender shrimp and crisp broccoli stir-fried in a savory sauce, served over steamed jasmine rice.",
-        "cal": 550,
-        "price": 220,
-        "type": "Seafood"
-      },
-      {
-        "id": 8,
-        "image": "https://curefoods-images.eatfit.in/tr:w-295,ar-1.33/image/singles/eat/meals/SUB44/primary/2_1.jpg",
-        "name": "Quinoa Salad with Roasted Vegetables",
-        "description": "A colorful and nutritious salad featuring quinoa, roasted vegetables, and a zesty lemon vinaigrette.",
-        "cal": 350,
-        "price": 190,
-        "type": "Gluten-free"
-      },
-      {
-        "id": 9,
-        "image": "https://curefoods-images.eatfit.in/tr:w-295,ar-1.33/image/singles/eat/meals/EAT6452/primary/4_1.jpg",
-        "name": "Beef and Mushroom Stroganoff",
-        "description": "Tender strips of beef and mushrooms cooked in a creamy and flavorful stroganoff sauce, served over egg noodles.",
-        "cal": 600,
-        "price": 280,
-        "type": "Comfort food"
-      },
-      {
-        "id": 10,
-        "image": "https://curefoods-images.eatfit.in/tr:w-295,ar-1.33/image/singles/eat/meals/HRX15/primary/4_1.jpg",
-        "name": "Avocado and Black Bean Wrap",
-        "description": "A satisfying wrap filled with creamy avocado, black beans, tomatoes, and a spicy chipotle mayo.",
-        "cal": 420,
-        "price": 160,
-        "type": "Vegetarian"
-      },
-      {
-        "id": 11,
-        "image": "https://curefoods-images.eatfit.in/tr:w-295,ar-1.33/image/singles/eat/meals/SUB61/primary/1_1.jpg",
-        "name": "Salmon Caesar Salad",
-        "description": "Grilled salmon fillet served on a bed of crisp romaine lettuce, tossed with Caesar dressing and croutons.",
-        "cal": 500,
-        "price": 320,
-        "type": "Seafood"
-      },
-      {
-        "id": 12,
-        "image": "https://curefoods-images.eatfit.in/tr:w-295,ar-1.33/image/singles/eat/meals/EAT6945/primary/1_1.jpg",
-        "name": "Pesto Pasta with Cherry Tomatoes",
-        "description": "Al dente pasta tossed in a vibrant pesto sauce, topped with sweet cherry tomatoes and Parmesan cheese.",
-        "cal": 480,
-        "price": 210,
-        "type": "Italian"
-      },
-      {
-        "id": 13,
-        "image": "https://example.com/image13.jpg",
-        "name": "Chickpea and Spinach Curry",
-        "description": "Hearty chickpea and spinach curry simmered in a fragrant blend of spices, served with basmati rice.",
-        "cal": 420,
-        "price": 180,
-        "type": "Vegan"
-      },
-      {
-        "id": 14,
-        "image": "https://example.com/image14.jpg",
-        "name": "Turkey and Cranberry Wrap",
-        "description": "Sliced turkey breast, cranberry sauce, and stuffing wrapped in a tortilla for a festive and satisfying meal.",
-        "cal": 380,
-        "price": 200,
-        "type": "Holiday special"
-      },
-      {
-        "id": 15,
-        "image": "https://example.com/image15.jpg",
-        "name": "Caprese Salad with Balsamic Glaze",
-        "description": "A classic Italian salad featuring fresh mozzarella, tomatoes, and basil drizzled with balsamic glaze.",
-        "cal": 320,
-        "price": 150,
-        "type": "Light and refreshing"
-      },
-      {
-        "id": 16,
-        "image": "https://example.com/image16.jpg",
-        "name": "Pulled Pork Sandwich",
-        "description": "Slow-cooked pulled pork piled high on a soft bun, topped with coleslaw and barbecue sauce.",
-        "cal": 550,
-        "price": 240,
-        "type": "Barbecue delight"
-      },
-      {
-        "id": 17,
-        "image": "https://example.com/image17.jpg",
-        "name": "Vegetable Pad Thai",
-        "description": "Stir-fried rice noodles with tofu, vegetables, and a tangy tamarind sauce, garnished with peanuts and cilantro.",
-        "cal": 400,
-        "price": 190,
-        "type": "Thai cuisine"
-      },
-      {
-        "id": 18,
-        "image": "https://example.com/image18.jpg",
-        "name": "Mushroom Risotto",
-        "description": "Creamy and flavorful risotto made with Arborio rice, mushrooms, and Parmesan cheese.",
-        "cal": 450,
-        "price": 220,
-        "type": "Italian comfort"
-      },
-      {
-        "id": 19,
-        "image": "https://example.com/image19.jpg",
-        "name": "Honey Glazed Salmon",
-        "description": "Grilled salmon fillet glazed with a sweet and savory honey glaze, served with roasted vegetables.",
-        "cal": 480,
-        "price": 280,
-        "type": "Seafood delight"
-      },
-      {
-        "id": 20,
-        "image": "https://example.com/image20.jpg",
-        "name": "Vegetarian Burrito Bowl",
-        "description": "A hearty bowl featuring rice, black beans, corn, avocado, and salsa, topped with cheese and sour cream.",
-        "cal": 380,
-        "price": 170,
-        "type": "Mexican-inspired"
-      },
-      {
-        "id": 21,
-        "image": "https://example.com/image21.jpg",
-        "name": "Teriyaki Chicken Skewers",
-        "description": "Juicy chicken skewers marinated in teriyaki sauce and grilled to perfection, served with steamed rice.",
-        "cal": 520,
-        "price": 250,
-        "type": "Asian fusion"
-      },
-      {
-        "id": 22,
-        "image": "https://example.com/image22.jpg",
-        "name": "Eggplant Parmesan",
-        "description": "Slices of eggplant breaded and baked, topped with marinara sauce and melted mozzarella cheese.",
-        "cal": 420,
-        "price": 200,
-        "type": "Italian delight"
-      },
-      {
-        "id": 23,
-        "image": "https://example.com/image23.jpg",
-        "name": "Lemon Herb Grilled Chicken",
-        "description": "Grilled chicken breast marinated in a zesty lemon herb sauce, served with roasted vegetables.",
-        "cal": 480,
-        "price": 270,
-        "type": "Light and flavorful"
-      },
-      {
-        "id": 24,
-        "image": "https://example.com/image24.jpg",
-        "name": "Vegetable Sushi Rolls",
-        "description": "Assorted vegetable sushi rolls with avocado, cucumber, and carrots, served with soy sauce and pickled ginger.",
-        "cal": 350,
-        "price": 160,
-        "type": "Japanese cuisine"
-      },
-      {
-        "id": 25,
-        "image": "https://example.com/image25.jpg",
-        "name": "BBQ Chicken Pizza",
-        "description": "Thin-crust pizza topped with barbecue chicken, red onions, and cilantro, drizzled with barbecue sauce.",
-        "cal": 520,
-        "price": 230,
-        "type": "Pizza lover's choice"
-      },
-      {
-        "id": 26,
-        "image": "https://example.com/image26.jpg",
-        "name": "Mango Avocado Salsa Chicken",
-        "description": "Grilled chicken breast topped with a refreshing mango avocado salsa, served with quinoa.",
-        "cal": 450,
-        "price": 260,
-        "type": "Tropical delight"
-      },
-      {
-        "id": 27,
-        "image": "https://example.com/image27.jpg",
-        "name": "Cauliflower Buffalo Wings",
-        "description": "Crispy baked cauliflower florets coated in spicy buffalo sauce, served with vegan ranch dip.",
-        "cal": 320,
-        "price": 180,
-        "type": "Vegetarian delight"
-      },
-      {
-        "id": 28,
-        "image": "https://example.com/image28.jpg",
-        "name": "Spaghetti Carbonara",
-        "description": "Classic Italian pasta dish with spaghetti, bacon, eggs, and Parmesan cheese in a creamy sauce.",
-        "cal": 480,
-        "price": 220,
-        "type": "Italian classic"
-      },
-      {
-        "id": 29,
-        "image": "https://example.com/image29.jpg",
-        "name": "Stuffed Bell Peppers",
-        "description": "Bell peppers stuffed with a flavorful mixture of quinoa, black beans, corn, and spices, baked to perfection.",
-        "cal": 350,
-        "price": 190,
-        "type": "Healthy choice"
-      },
-      {
-        "id": 30,
-        "image": "https://example.com/image30.jpg",
-        "name": "Chocolate Banana Smoothie Bowl",
-        "description": "A delicious and indulgent smoothie bowl made with banana, cocoa powder, and topped with granola and chocolate chips.",
-        "cal": 300,
-        "price": 150,
-        "type": "Sweet treat"
-      }
-    ]
-  }
-  
+  "foods": [
+    {
+      "id": 1,
+      "image": "https://curefoods-images.eatfit.in/tr:w-600,ar-0.8,c_fit//image/singles/eat/meals/EAT6221/primary/4_1.jpg",
+      "name": "Masala Egg curry, Yellow Dal Tadka, Paratha Thali",
+      "description": "Want a meal that's nutritious yet light on your stomach? This thali of egg curry, dal tadka, and soft whole wheat parathas, served with cucumber carrot salad, sirka onions that's packed with deliciousness.",
+      "cal": 689,
+      "price": 175,
+      "type": "vegan"
+    },
+    {
+      "id": 2,
+      "image": "https://curefoods-images.eatfit.in/tr:w-600,ar-0.8,c_fit//image/singles/eat/meals/EAT6217/primary/4_1.jpg",
+      "name": "Yellow Dal Tadka, Aloo Gobhi, Paratha Thali",
+      "description": "Relish the simple yet beautiful flavors of our homestyle yellow dal tadka and aloo gobhi adraki in this thali. To savor these mains, there’s our soft and fresh whole wheat parathas.",
+      "cal": 541,
+      "price": 175,
+      "type": "High fiber"
+    },
+    {
+      "id": 3,
+      "image": "https://curefoods-images.eatfit.in/tr:w-295,ar-1.33/image/singles/eat/meals/ALH04/primary/3_1.jpg",
+      "name": "Veg Biryani with Raita",
+      "description": "Aromatic basmati rice cooked with mixed vegetables, herbs, and spices, served with a side of cooling raita.",
+      "cal": 620,
+      "price": 200,
+      "type": "Vegetarian"
+    },
+    {
+      "id": 4,
+      "image": "https://curefoods-images.eatfit.in/tr:w-295,ar-1.33/image/singles/eat/meals/EAT6682/primary/2_1.jpg",
+      "name": "Chicken Tikka Masala with Naan",
+      "description": "Tender chicken pieces marinated and cooked in a rich, creamy tomato-based sauce, served with soft and fluffy naan bread.",
+      "cal": 800,
+      "price": 250,
+      "type": "Non-vegetarian"
+    },
+    {
+      "id": 5,
+      "image": "https://curefoods-images.eatfit.in/tr:w-295,ar-1.33/image/singles/eat/meals/EAT6120/primary/4_1.jpg",
+      "name": "Spinach and Feta Stuffed Chicken Breast",
+      "description": "Juicy chicken breast stuffed with spinach and feta, roasted to perfection. Served with a side of roasted vegetables.",
+      "cal": 450,
+      "price": 300,
+      "type": "High protein"
+    },
+    {
+      "id": 6,
+      "image": "https://curefoods-images.eatfit.in/tr:w-295,ar-1.33/image/singles/eat/meals/GIK80/primary/1_1.jpg",
+      "name": "Mango Coconut Rice Bowl",
+      "description": "Fluffy coconut rice topped with fresh mango chunks, avocado slices, and a drizzle of tangy mango dressing.",
+      "cal": 400,
+      "price": 480,
+      "type": "Vegan"
+    },
+    {
+      "id": 7,
+      "image": "https://curefoods-images.eatfit.in/tr:w-295,ar-1.33/image/singles/eat/meals/CHT36/primary/2_1.jpg",
+      "name": "Shrimp and Broccoli Stir-Fry",
+      "description": "Tender shrimp and crisp broccoli stir-fried in a savory sauce, served over steamed jasmine rice.",
+      "cal": 550,
+      "price": 420,
+      "type": "Seafood"
+    },
+    {
+      "id": 8,
+      "image": "https://curefoods-images.eatfit.in/tr:w-295,ar-1.33/image/singles/eat/meals/SUB44/primary/2_1.jpg",
+      "name": "Quinoa Salad with Roasted Vegetables",
+      "description": "A colorful and nutritious salad featuring quinoa, roasted vegetables, and a zesty lemon vinaigrette.",
+      "cal": 350,
+      "price": 190,
+      "type": "Gluten-free"
+    },
+    {
+      "id": 9,
+      "image": "https://curefoods-images.eatfit.in/tr:w-295,ar-1.33/image/singles/eat/meals/EAT6452/primary/4_1.jpg",
+      "name": "Beef and Mushroom Stroganoff",
+      "description": "Tender strips of beef and mushrooms cooked in a creamy and flavorful stroganoff sauce, served over egg noodles.",
+      "cal": 600,
+      "price": 380,
+      "type": "High fiber"
+    },
+    {
+      "id": 10,
+      "image": "https://curefoods-images.eatfit.in/tr:w-295,ar-1.33/image/singles/eat/meals/HRX15/primary/4_1.jpg",
+      "name": "Avocado and Black Bean Wrap",
+      "description": "A satisfying wrap filled with creamy avocado, black beans, tomatoes, and a spicy chipotle mayo.",
+      "cal": 420,
+      "price": 160,
+      "type": "vegan"
+    },
+    {
+      "id": 11,
+      "image": "https://curefoods-images.eatfit.in/tr:w-295,ar-1.33/image/singles/eat/meals/SUB61/primary/1_1.jpg",
+      "name": "Salmon Caesar Salad",
+      "description": "Grilled salmon fillet served on a bed of crisp romaine lettuce, tossed with Caesar dressing and croutons.",
+      "cal": 500,
+      "price": 520,
+      "type": "Seafood"
+    },
+    {
+      "id": 12,
+      "image": "https://curefoods-images.eatfit.in/tr:w-295,ar-1.33/image/singles/eat/meals/EAT6945/primary/1_1.jpg",
+      "name": "Pesto Pasta with Cherry Tomatoes",
+      "description": "Al dente pasta tossed in a vibrant pesto sauce, topped with sweet cherry tomatoes and Parmesan cheese.",
+      "cal": 480,
+      "price": 510,
+      "type": "Italian"
+    },
+    {
+      "id": 13,
+      "image": "https://curefoods-images.eatfit.in/tr:w-295,ar-1.33/image/singles/eat/meals/HPS49/primary/1_1.jpg",
+      "name": "Chickpea and Spinach Curry",
+      "description": "Hearty chickpea and spinach curry simmered in a fragrant blend of spices, served with basmati rice.",
+      "cal": 420,
+      "price": 380,
+      "type": "Vegan"
+    },
+    {
+      "id": 14,
+      "image": "https://curefoods-images.eatfit.in/tr:w-295,ar-1.33/image/singles/eat/meals/HRX18/primary/3_1.jpg",
+      "name": "Turkey and Cranberry Wrap",
+      "description": "Sliced turkey breast, cranberry sauce, and stuffing wrapped in a tortilla for a festive and satisfying meal.",
+      "cal": 380,
+      "price": 200,
+      "type": "High fiber"
+    },
+    {
+      "id": 15,
+      "image": "https://curefoods-images.eatfit.in/tr:w-295,ar-1.33/image/singles/eat/meals/HRX52/primary/2_1.jpg",
+      "name": "Caprese Salad with Balsamic Glaze",
+      "description": "A classic Italian salad featuring fresh mozzarella, tomatoes, and basil drizzled with balsamic glaze.",
+      "cal": 320,
+      "price": 150,
+      "type": "vegan"
+    },
+    {
+      "id": 16,
+      "image": "https://curefoods-images.eatfit.in/tr:w-295,ar-1.33/image/singles/eat/meals/HRX71/primary/2_1.jpg",
+      "name": "Pulled Pork Sandwich",
+      "description": "Slow-cooked pulled pork piled high on a soft bun, topped with coleslaw and barbecue sauce.",
+      "cal": 550,
+      "price": 240,
+      "type": "Non-vegetarian"
+    },
+    {
+      "id": 17,
+      "image": "https://curefoods-images.eatfit.in/tr:w-295,ar-1.33/image/singles/eat/meals/HRX155/primary/2_1.jpg",
+      "name": "Vegetable Pad Thai",
+      "description": "Stir-fried rice noodles with tofu, vegetables, and a tangy tamarind sauce, garnished with peanuts and cilantro.",
+      "cal": 400,
+      "price": 190,
+      "type": "Vegetarian"
+    },
+    {
+      "id": 18,
+      "image": "https://curefoods-images.eatfit.in/tr:w-295,ar-1.33/image/singles/eat/meals/HRX165/primary/1_1.jpg",
+      "name": "Mushroom Risotto",
+      "description": "Creamy and flavorful risotto made with Arborio rice, mushrooms, and Parmesan cheese.",
+      "cal": 450,
+      "price": 220,
+      "type": "High fiber"
+    },
+    {
+      "id": 19,
+      "image": "https://curefoods-images.eatfit.in/tr:w-295,ar-1.33/image/singles/eat/meals/EAT6452/primary/4_1.jpg",
+      "name": "Honey Glazed Salmon",
+      "description": "Grilled salmon fillet glazed with a sweet and savory honey glaze, served with roasted vegetables.",
+      "cal": 480,
+      "price": 280,
+      "type": "Seafood delight"
+    },
+    {
+      "id": 20,
+      "image": "https://curefoods-images.eatfit.in/tr:w-295,ar-1.33/image/singles/eat/meals/HRX54/primary/2_1.jpg",
+      "name": "Vegetarian Burrito Bowl",
+      "description": "A hearty bowl featuring rice, black beans, corn, avocado, and salsa, topped with cheese and sour cream.",
+      "cal": 380,
+      "price": 170,
+      "type": "Vegetarian"
+    },
+    {
+      "id": 21,
+      "image": "https://curefoods-images.eatfit.in/tr:w-295,ar-1.33/image/singles/eat/meals/EAT6614/primary/3_1.jpg",
+      "name": "Teriyaki Chicken Skewers",
+      "description": "Juicy chicken skewers marinated in teriyaki sauce and grilled to perfection, served with steamed rice.",
+      "cal": 520,
+      "price": 250,
+      "type": "Non-vegetarian"
+    },
+    {
+      "id": 22,
+      "image": "https://curefoods-images.eatfit.in/tr:w-295,ar-1.33/image/singles/eat/meals/HRX181/primary/2_1.jpg",
+      "name": "Eggplant Parmesan",
+      "description": "Slices of eggplant breaded and baked, topped with marinara sauce and melted mozzarella cheese.",
+      "cal": 420,
+      "price": 200,
+      "type": "High fiber"
+    },
+    {
+      "id": 23,
+      "image": "https://curefoods-images.eatfit.in/tr:w-295,ar-1.33/image/singles/eat/meals/HRX07/primary/4_1.jpg",
+      "name": "Lemon Herb Grilled Chicken",
+      "description": "Grilled chicken breast marinated in a zesty lemon herb sauce, served with roasted vegetables.",
+      "cal": 480,
+      "price": 270,
+      "type": "Non-vegetarian"
+    },
+    {
+      "id": 24,
+      "image": "https://curefoods-images.eatfit.in/tr:w-295,ar-1.33/image/singles/eat/meals/HRX34/primary/2_1.jpg",
+      "name": "Vegetable Sushi Rolls",
+      "description": "Assorted vegetable sushi rolls with avocado, cucumber, and carrots, served with soy sauce and pickled ginger.",
+      "cal": 350,
+      "price": 160,
+      "type": "Vegan"
+    },
+    {
+      "id": 25,
+      "image": "https://curefoods-images.eatfit.in/tr:w-295,ar-1.33/image/singles/eat/meals/EAT6637/primary/7_1.jpg",
+      "name": "BBQ Chicken Pizza",
+      "description": "Thin-crust pizza topped with barbecue chicken, red onions, and cilantro, drizzled with barbecue sauce.",
+      "cal": 520,
+      "price": 230,
+      "type": "Non-vegetarian"
+    },
+    {
+      "id": 26,
+      "image": "https://curefoods-images.eatfit.in/tr:w-295,ar-1.33/image/singles/eat/meals/NMD02/primary/1_1.jpg",
+      "name": "Mango Avocado Salsa Chicken",
+      "description": "Grilled chicken breast topped with a refreshing mango avocado salsa, served with quinoa.",
+      "cal": 450,
+      "price": 260,
+      "type": "Tropical delight"
+    },
+    {
+      "id": 27,
+      "image": "https://curefoods-images.eatfit.in/tr:w-295,ar-1.33/image/singles/eat/meals/EAT4767/primary/4_1.jpg",
+      "name": "Cauliflower Buffalo Wings",
+      "description": "Crispy baked cauliflower florets coated in spicy buffalo sauce, served with vegan ranch dip.",
+      "cal": 320,
+      "price": 480,
+      "type": "Vegetarian"
+    },
+    {
+      "id": 28,
+      "image": "https://curefoods-images.eatfit.in/tr:w-295,ar-1.33/image/singles/eat/meals/CHT27/primary/2_1.jpg",
+      "name": "Spaghetti Carbonara",
+      "description": "Classic Italian pasta dish with spaghetti, bacon, eggs, and Parmesan cheese in a creamy sauce.",
+      "cal": 480,
+      "price": 520,
+      "type": "Italian classic"
+    }
+  ]
+}
